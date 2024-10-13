@@ -173,6 +173,10 @@ main{
 }
 
 /* my current goal section */
+.target-section{
+    margin-top: 180px;
+    margin-bottom: 110px;
+}
 .container-card{
     /* max-width: 900px; */
     display: flex;
@@ -192,12 +196,32 @@ main{
     font-size: 24px;
     font-weight: 800;
     text-align: left;
+    margin: 24px 0 8px 0;
 }
 .target-des{
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
+    margin-bottom: 24px;
 }
 .html, .css, .js{
     padding: 40px;
+}
+
+/* next target section */
+.target-container{
+    max-width: 1140px;
+    margin: 48px auto 0 auto;
+    padding: 40px;
+}
+
+.ReactJS, .NodeJS, .mongodb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+}
+.target-content{
+    
 }
