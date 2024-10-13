@@ -156,3 +156,16 @@ main{
     gap: 90px;
     margin-bottom: 32px;
 }
+.ins-description{
+    max-width: 850px;
+    margin: 24px auto;
+    text-align: center;
+    
+    
+    
+}
+.video-frame{
+    width: 900px;;
+    margin: 80px auto;
+    text-align: center;
+}
