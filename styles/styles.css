@@ -204,10 +204,24 @@ main{
     opacity: 0.7;
     margin-bottom: 24px;
 }
-.html, .css, .js{
+.html{
     padding: 40px;
+    background-color: lightcoral;
+    border-radius: 8px;
+    flex: 1;
 }
-
+.css{
+    background-color: lightseagreen;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+}
+.js{
+    background-color: yellowgreen;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+}
 /* next target section */
 .target-container{
     max-width: 1140px;
@@ -269,4 +283,19 @@ main{
     font-weight: 400;
     opacity: 0.7;
     color: white;
+}
+/* footer */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+}
+.footer-content{
+    width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.img-container{
+   margin-right: 24px;
+    
 }
